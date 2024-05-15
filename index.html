@@ -5,29 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wag Santos</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!--Home-->
   <section class="homepage">
     <section class="container container-homepage">
       <header class="header">
-        <div class="menu">
-          <ul class="menu-list">
-            <li class="menu-logo">
-              <link rel="stylesheet" href="#"><img src="images/logo.png" alt="Logo Wag Santos">
-            </li>
-            <li class="menu-text">Home</li>
-            <li class="menu-text">Sobre Mim</li>
-            <li class="menu-text">Habilidades</li>
-            <li class="menu-text">Projetos</li>
-          </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
+          <div class="container-fluid">
+            <a href="#">
+              <img src="images/logo.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projetos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </header>
-
+      
       <div class="home-box">
-        <p>Olá</p>
-        <p>Sou Wag Santos</p>
-        <p>Desenvolvedor Web</p>
+        <p class="h5">Olá</p>
+        <p class="h1">Sou Wag Santos,</p>
+        <p class="h1">Desenvolvedor Web</p>
         <div class="home-box-description">
           <p>Desenvolvedor web apaixonado pela inovação e centrado no usuário, estou aqui para criar soluções web impressionantes e funcionais.</p>
         </div>
@@ -122,5 +139,7 @@
   </section>
 
   <footer><p>2024 - Desenvolvido por <a href="#">Wag Santos</a>, todos os direitos reservados</p></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

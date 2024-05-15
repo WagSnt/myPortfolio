@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("tipography/SFPRODISPLAYREGULAR.OTF") format ("opentype"),;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+}
+
+
+.homepage {
+  height: 100vh;
+  background-image: url("images/bg-img-homepage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid > a > img {
+  padding-right: 50px;
+}
+
+.nav-item {
+  padding-right: 20px;
+  font-size: 24px;
+}
+
+.nav-item > .nav-link {
+  color: white;
+}
+
+
+.home-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  
+  width: 500px;
+}
+
+.home-box > .h1 {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
