@@ -124,6 +124,17 @@
   text-align: center;
   justify-content: center;
   font-size: 16px;
-  
+}
+
+.card-item > .h4 {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.card-item > .h4:hover {
+  text-decoration: underline;
+  text-decoration-color: #8A3BBF;
+  transition: 0.3s;
 }
 
