@@ -131,10 +131,76 @@
   font-size: 24px;
   font-weight: 700;
   margin-top: 16px;
+  text-decoration-color: #8A3BBF;
+  transition: 0.3s;
 }
 .card-item > .h4:hover {
   text-decoration: underline;
   text-decoration-color: #8A3BBF;
   transition: 0.3s;
+}
+
+.about-me {
+  background: linear-gradient(to bottom, #1C1240, #1C1240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.about-me > .about-me-container > .about-me-text > .h2 {
+  font-family: "Quattrocentos Sans", sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.about-me-container > .about-me-text {
+  width: 500px;
+}
+
+.projects {
+  background: linear-gradient(to bottom, #1C1240, #3A1F66);
+  height: 30vh;
+}
+
+.projects > .projects-text {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.projects > .projects-text > .h3 {
+  font-family: "Quattrocentos Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.grid-card-project {
+  background: linear-gradient(to bottom, #3A1F66, #6E37A6);
+}
+
+.grid-card-project > .grid-p {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.card-project {
+  overflow: hidden;
+}
+
+.card-project-4 {
+  grid-row: 2 / 4;
+  
+}
+
+.card-project-5 {
+  grid-column: 2 / 4;
 }
 
