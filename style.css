@@ -182,25 +182,69 @@
 
 .grid-card-project {
   background: linear-gradient(to bottom, #3A1F66, #6E37A6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.grid-card-project > .grid-p {
+
+.page-atendimento {
+  background: var(--about-me-gradient);
+}
+
+.container-atendimentos {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.atendimentos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0 auto;
-  gap: 15px;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 700px 700px;
+  gap: 30px;
 }
 
-.card-project {
-  overflow: hidden;
+.card-atendimento {
+  background-color: transparent;
+  color: var(--strong-brown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.342);
+  border-radius: 30px;
 }
 
-.card-project-4 {
-  grid-row: 2 / 4;
-  
+.card-atendimento > img {
+  width: 450px;
+
+  border-radius: 30px;
 }
 
-.card-project-5 {
-  grid-column: 2 / 4;
+.page-atendimento > .container-btn {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
+.page-atendimento > .container-btn > a {
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 218px;
+  border: 2px solid var(--strong-brown);
+  border-radius: 30px;
+  font-weight: 500;
+  color: var(--strong-brown);
+  background-color: transparent;
+} .page-atendimento > .container-btn > a:hover {
+  border: 2px solid var(--skin-color);
+  border-radius: 30px;
+  color: var(--skin-color);
+  background-color: var(--strong-brown);
+  font-weight: 500;
+}
